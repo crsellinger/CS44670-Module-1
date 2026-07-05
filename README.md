@@ -108,6 +108,8 @@ These are listed for convenience.
 For best results, follow the detailed instructions in
 [pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
 
+*Note: I used `pip` to install `uv`, so `uv self update` doesn't work. I use the following command to update `uv`: `pip install --upgrade uv`.
+
 ```shell
 uv self update
 uv python pin 3.14
@@ -138,6 +140,8 @@ git add .
 git commit -m "Some message"
 git push -u origin main
 ```
+
+*Note: can use `git push` after initial setup
 
 </details>
 

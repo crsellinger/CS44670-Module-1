@@ -27,15 +27,19 @@ Describe your small technical modification to the example project.
 
 Include:
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+- What you changed: Changed dataset to diamonds and CANDIDATE_TARGET to price.
+- Why you chose that change: Test consistency of workflow still applies with simple modification.
+- How you verified that it worked: No errors in Jupyter notebook. Output is consistent.
+- What result, output, chart, metric, or behavior confirmed the change: feature_list changed to column names of new dataset and shape of data set changed. New output chart for cut type.
 
 Compared with the example project,
 explain what is different and why the change matters.
 
+Used new data set and target. Output shows that project workflow is consistent.
+
 Was it easy, or surprisingly challenging and why do you think so?
+
+Easy challenge to verify project workflow is consistent with modification.
 
 ## Phase 5. Custom Project (OPTIONAL in Module 1)
 
@@ -44,16 +48,18 @@ Describe your custom project.
 In Module 1, this includes choosing a dataset, identifying a target,
 and explaining what kind of ML problem it represents.
 
+Used diamonds dataset from seaborn. Used price as new target prediction. This problem represents a numerical linear regression analysis to predict the price of a diamond based on its features noted in the dataset (feature_list).
+
 ### Basis and Data
 
 Describe the dataset, input, or example you started with.
 
 Include:
 
-- The original example dataset or input
-- The data source
-- Why you chose it, kept it, or changed it
-- Any important limitations or assumptions
+- The original example dataset or input: penguins.
+- The data source: seaborn
+- Why you chose it, kept it, or changed it: Changed to diamonds dataset to test workflow consistency.
+- Any important limitations or assumptions: Data not inculded in dataset that may effect price would be location of mine where diamond was extracted.
 
 ### Modeling Approach
 
@@ -62,6 +68,8 @@ Describe the problem type and approach for this project.
 Include:
 
 - Is this supervised or unsupervised and how do you know
+
+Supervised learning problem as the data is labeled and we are applying a prediction, not relationships.
 
 ### Summary
 
@@ -76,3 +84,5 @@ Include:
 - What kinds of real problems you could apply these skills to in the future
 
 Display at least one image or screenshot showing your work.
+
+![Sample Jupyter Output](docs\images\Jupyter_sample_output.png)

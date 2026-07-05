@@ -463,3 +463,186 @@ dtype: int64
 2026-07-03 16:32:53 | INFO | ML | ========================
 2026-07-03 16:32:53 | INFO | ML | Executed successfully!
 2026-07-03 16:32:53 | INFO | ML | ========================
+2026-07-05 13:51:08 | INFO | M01 | === RUN START ===
+2026-07-05 13:51:08 | INFO | M01 | project=M01
+2026-07-05 13:51:08 | INFO | M01 | repo_dir=CS44670-Module-1
+2026-07-05 13:51:08 | INFO | M01 | python=3.14.6
+2026-07-05 13:51:08 | INFO | M01 | os=Windows 11
+2026-07-05 13:51:08 | INFO | M01 | shell=powershell
+2026-07-05 13:51:08 | INFO | M01 | cwd=notebooks
+2026-07-05 13:51:08 | INFO | M01 | github_actions=False
+2026-07-05 13:51:08 | INFO | M01 | Confirming installation:
+2026-07-05 13:51:08 | INFO | M01 |   python:       3.14.6
+2026-07-05 13:51:08 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 13:51:08 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 13:51:08 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 13:51:08 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 13:51:08 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 13:51:08 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 13:51:08 | INFO | M01 | Loading dataset: diamonds
+2026-07-05 13:51:09 | INFO | M01 | Loaded: 53940 rows (instances), 10 columns
+2026-07-05 13:51:09 | INFO | M01 | Instances (rows): 53940
+2026-07-05 13:51:09 | INFO | M01 | Columns:          10
+2026-07-05 13:51:09 | INFO | M01 | Numeric columns (regression target / numeric feature): ['carat', 'depth', 'table', 'price', 'x', 'y', 'z']
+2026-07-05 13:51:09 | INFO | M01 | Categorical columns (classification target / category): ['cut', 'color', 'clarity']
+2026-07-05 13:51:09 | INFO | M01 | Missing values by column:
+carat      0
+cut        0
+color      0
+clarity    0
+depth      0
+table      0
+price      0
+x          0
+y          0
+z          0
+dtype: int64
+2026-07-05 13:51:09 | INFO | M01 | Missing values across all columns: 0
+2026-07-05 13:51:09 | DEBUG | M01 | First rows:
+2026-07-05 13:51:09 | DEBUG | M01 | 
+   carat      cut color clarity  depth  table  price     x     y     z
+0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75
+2026-07-05 13:51:09 | WARNING | M01 | CANDIDATE_TARGET 'species' is not a column.
+2026-07-05 13:51:09 | WARNING | M01 | Available columns: ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'price', 'x', 'y', 'z']
+2026-07-05 13:51:09 | INFO | M01 | Chosen target (y): species
+2026-07-05 13:52:56 | INFO | M01 | Chosen target (y): price
+2026-07-05 13:52:56 | INFO | M01 | Target is numeric? True
+2026-07-05 13:52:56 | INFO | M01 | Implied problem type: regression (we want to predict a number)
+2026-07-05 13:52:56 | INFO | M01 | Candidate features (X): ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 13:53:11 | INFO | M01 | ========================
+2026-07-05 13:53:11 | INFO | M01 | SUMMARY OF KEY FACTS
+2026-07-05 13:53:11 | INFO | M01 | ========================
+2026-07-05 13:53:11 | INFO | M01 | Dataset:           diamonds
+2026-07-05 13:53:11 | INFO | M01 | Instances:         53940
+2026-07-05 13:53:11 | INFO | M01 | Candidate target:  price
+2026-07-05 13:53:11 | INFO | M01 | Problem type:      regression (we want to predict a number)
+2026-07-05 13:53:11 | INFO | M01 | Candidate features: ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 13:53:11 | INFO | M01 | ========================
+2026-07-05 14:19:24 | INFO | M01 | === RUN START ===
+2026-07-05 14:19:24 | INFO | M01 | project=M01
+2026-07-05 14:19:24 | INFO | M01 | repo_dir=CS44670-Module-1
+2026-07-05 14:19:24 | INFO | M01 | python=3.14.6
+2026-07-05 14:19:24 | INFO | M01 | os=Windows 11
+2026-07-05 14:19:24 | INFO | M01 | shell=powershell
+2026-07-05 14:19:24 | INFO | M01 | cwd=notebooks
+2026-07-05 14:19:24 | INFO | M01 | github_actions=False
+2026-07-05 14:19:24 | INFO | M01 | Confirming installation:
+2026-07-05 14:19:24 | INFO | M01 |   python:       3.14.6
+2026-07-05 14:19:24 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 14:19:24 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 14:19:24 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 14:19:24 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 14:19:24 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 14:19:24 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 14:21:39 | INFO | M01 | === RUN START ===
+2026-07-05 14:21:39 | INFO | M01 | project=M01
+2026-07-05 14:21:39 | INFO | M01 | repo_dir=CS44670-Module-1
+2026-07-05 14:21:39 | INFO | M01 | python=3.14.6
+2026-07-05 14:21:39 | INFO | M01 | os=Windows 11
+2026-07-05 14:21:39 | INFO | M01 | shell=powershell
+2026-07-05 14:21:39 | INFO | M01 | cwd=notebooks
+2026-07-05 14:21:39 | INFO | M01 | github_actions=False
+2026-07-05 14:21:39 | INFO | M01 | Confirming installation:
+2026-07-05 14:21:39 | INFO | M01 |   python:       3.14.6
+2026-07-05 14:21:39 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 14:21:39 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 14:21:39 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 14:21:39 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 14:21:39 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 14:21:39 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 14:21:39 | INFO | M01 | Loading dataset: diamonds
+2026-07-05 14:21:39 | INFO | M01 | Loaded: 53940 rows (instances), 10 columns
+2026-07-05 14:21:39 | INFO | M01 | Instances (rows): 53940
+2026-07-05 14:21:39 | INFO | M01 | Columns:          10
+2026-07-05 14:21:39 | INFO | M01 | Numeric columns (regression target / numeric feature): ['carat', 'depth', 'table', 'price', 'x', 'y', 'z']
+2026-07-05 14:21:39 | INFO | M01 | Categorical columns (classification target / category): ['cut', 'color', 'clarity']
+2026-07-05 14:21:39 | INFO | M01 | Missing values by column:
+carat      0
+cut        0
+color      0
+clarity    0
+depth      0
+table      0
+price      0
+x          0
+y          0
+z          0
+dtype: int64
+2026-07-05 14:21:39 | INFO | M01 | Missing values across all columns: 0
+2026-07-05 14:21:39 | DEBUG | M01 | First rows:
+2026-07-05 14:21:39 | DEBUG | M01 | 
+   carat      cut color clarity  depth  table  price     x     y     z
+0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75
+2026-07-05 14:21:39 | INFO | M01 | Chosen target (y): price
+2026-07-05 14:21:39 | INFO | M01 | Target is numeric? True
+2026-07-05 14:21:39 | INFO | M01 | Implied problem type: regression (we want to predict a number)
+2026-07-05 14:21:39 | INFO | M01 | Candidate features (X): ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 14:21:39 | INFO | M01 | Training Regression Model
+2026-07-05 14:24:15 | INFO | M01 | Chosen target (y): price
+2026-07-05 14:24:15 | INFO | M01 | Target is numeric? True
+2026-07-05 14:24:15 | INFO | M01 | Implied problem type: regression (we want to predict a number)
+2026-07-05 14:24:15 | INFO | M01 | Candidate features (X): ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 14:25:14 | INFO | M01 | === RUN START ===
+2026-07-05 14:25:14 | INFO | M01 | project=M01
+2026-07-05 14:25:14 | INFO | M01 | repo_dir=CS44670-Module-1
+2026-07-05 14:25:14 | INFO | M01 | python=3.14.6
+2026-07-05 14:25:14 | INFO | M01 | os=Windows 11
+2026-07-05 14:25:14 | INFO | M01 | shell=powershell
+2026-07-05 14:25:14 | INFO | M01 | cwd=notebooks
+2026-07-05 14:25:14 | INFO | M01 | github_actions=False
+2026-07-05 14:25:14 | INFO | M01 | Confirming installation:
+2026-07-05 14:25:14 | INFO | M01 |   python:       3.14.6
+2026-07-05 14:25:14 | INFO | M01 |   pandas:       3.0.3
+2026-07-05 14:25:14 | INFO | M01 |   numpy:        2.5.0
+2026-07-05 14:25:14 | INFO | M01 |   scikit-learn: 1.9.0
+2026-07-05 14:25:14 | INFO | M01 |   seaborn:      0.13.2
+2026-07-05 14:25:14 | INFO | M01 |   matplotlib:   3.11.0
+2026-07-05 14:25:14 | INFO | M01 | Built-in Seaborn datasets: ['anagrams', 'anscombe', 'attention', 'brain_networks', 'car_crashes', 'diamonds', 'dots', 'dowjones', 'exercise', 'flights', 'fmri', 'geyser', 'glue', 'healthexp', 'iris', 'mpg', 'penguins', 'planets', 'seaice', 'taxis', 'tips', 'titanic']
+2026-07-05 14:25:14 | INFO | M01 | Loading dataset: diamonds
+2026-07-05 14:25:14 | INFO | M01 | Loaded: 53940 rows (instances), 10 columns
+2026-07-05 14:25:14 | INFO | M01 | Instances (rows): 53940
+2026-07-05 14:25:14 | INFO | M01 | Columns:          10
+2026-07-05 14:25:14 | INFO | M01 | Numeric columns (regression target / numeric feature): ['carat', 'depth', 'table', 'price', 'x', 'y', 'z']
+2026-07-05 14:25:14 | INFO | M01 | Categorical columns (classification target / category): ['cut', 'color', 'clarity']
+2026-07-05 14:25:14 | INFO | M01 | Missing values by column:
+carat      0
+cut        0
+color      0
+clarity    0
+depth      0
+table      0
+price      0
+x          0
+y          0
+z          0
+dtype: int64
+2026-07-05 14:25:14 | INFO | M01 | Missing values across all columns: 0
+2026-07-05 14:25:14 | DEBUG | M01 | First rows:
+2026-07-05 14:25:14 | DEBUG | M01 | 
+   carat      cut color clarity  depth  table  price     x     y     z
+0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75
+2026-07-05 14:25:14 | INFO | M01 | Chosen target (y): price
+2026-07-05 14:25:14 | INFO | M01 | Target is numeric? True
+2026-07-05 14:25:14 | INFO | M01 | Implied problem type: regression (we want to predict a number)
+2026-07-05 14:25:14 | INFO | M01 | Candidate features (X): ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 14:25:14 | INFO | M01 | ========================
+2026-07-05 14:25:14 | INFO | M01 | SUMMARY OF KEY FACTS
+2026-07-05 14:25:14 | INFO | M01 | ========================
+2026-07-05 14:25:14 | INFO | M01 | Dataset:           diamonds
+2026-07-05 14:25:14 | INFO | M01 | Instances:         53940
+2026-07-05 14:25:14 | INFO | M01 | Candidate target:  price
+2026-07-05 14:25:14 | INFO | M01 | Problem type:      regression (we want to predict a number)
+2026-07-05 14:25:14 | INFO | M01 | Candidate features: ['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']
+2026-07-05 14:25:14 | INFO | M01 | ========================
