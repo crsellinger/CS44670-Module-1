@@ -34,7 +34,7 @@ See [docs/your-files.md] for more.
 
 Links:
 
-- [ml_01_case.ipynb](notebooks/ml_01_case.ipynb)
+- [ml_01_csellinger.ipynb](notebooks/ml_01_csellinger.ipynb)
 
 ## Working Files
 
@@ -118,7 +118,7 @@ uvx pre-commit install
 uvx pre-commit autoupdate
 
 # git add all files and auto fix them as much as possible while working
-git add -A
+git add .
 uvx pre-commit run --all-files
 # repeat if changes were made
 uvx pre-commit run --all-files
@@ -134,8 +134,8 @@ uv run python -m pytest
 uv run python -m zensical build
 
 # save progress after every major change (customize the commit message)
-git add -A
-git commit -m "update"
+git add .
+git commit -m "Some message"
 git push -u origin main
 ```
 
