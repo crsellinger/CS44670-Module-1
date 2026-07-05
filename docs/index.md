@@ -85,4 +85,4 @@ Include:
 
 Display at least one image or screenshot showing your work.
 
-![Sample Jupyter Output](images/Jupyter_sample_output.png)
+![Jupyter Output](images/Jupyter_sample_output.png)
